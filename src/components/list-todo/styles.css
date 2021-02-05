@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    width: 80%;
+    margin: 0 auto;
+    padding: 32px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    box-shadow: 1px 0 4px #00000044;
+}
+
+li:not(:first-of-type) {
+    margin-top: 10px;
+}
